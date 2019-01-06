@@ -1,14 +1,13 @@
 {
-  "main.css": "/ReactJS-Ninja/static/css/main.23ebc2ef.chunk.css",
-  "main.js": "/ReactJS-Ninja/static/js/main.eb2e3e16.chunk.js",
-  "main.js.map": "/ReactJS-Ninja/static/js/main.eb2e3e16.chunk.js.map",
-  "static/js/1.fa92c112.chunk.js": "/ReactJS-Ninja/static/js/1.fa92c112.chunk.js",
-  "static/js/1.fa92c112.chunk.js.map": "/ReactJS-Ninja/static/js/1.fa92c112.chunk.js.map",
+  "main.css": "/ReactJS-Ninja/static/css/main.41c87e51.chunk.css",
+  "main.js": "/ReactJS-Ninja/static/js/main.3a508ef0.chunk.js",
+  "main.js.map": "/ReactJS-Ninja/static/js/main.3a508ef0.chunk.js.map",
+  "static/js/1.a44f0c00.chunk.js": "/ReactJS-Ninja/static/js/1.a44f0c00.chunk.js",
+  "static/js/1.a44f0c00.chunk.js.map": "/ReactJS-Ninja/static/js/1.a44f0c00.chunk.js.map",
   "runtime~main.js": "/ReactJS-Ninja/static/js/runtime~main.17ee0f02.js",
   "runtime~main.js.map": "/ReactJS-Ninja/static/js/runtime~main.17ee0f02.js.map",
-  "static/media/logo.svg": "/ReactJS-Ninja/static/media/logo.5d5d9eef.svg",
-  "static/css/main.23ebc2ef.chunk.css.map": "/ReactJS-Ninja/static/css/main.23ebc2ef.chunk.css.map",
+  "static/css/main.41c87e51.chunk.css.map": "/ReactJS-Ninja/static/css/main.41c87e51.chunk.css.map",
   "index.html": "/ReactJS-Ninja/index.html",
-  "precache-manifest.e2ec7f6f5f26ad400d416df3d46224d2.js": "/ReactJS-Ninja/precache-manifest.e2ec7f6f5f26ad400d416df3d46224d2.js",
+  "precache-manifest.b1b0e77af5e780faa52d16c391dda101.js": "/ReactJS-Ninja/precache-manifest.b1b0e77af5e780faa52d16c391dda101.js",
   "service-worker.js": "/ReactJS-Ninja/service-worker.js"
 }
