@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ReactJS-Ninja/static/css/main.23ebc2ef.chunk.css"
   },
   {
-    "revision": "b2b3b73ac81067f648cdc16c3bea8001",
+    "revision": "fde5e454001d0f8d874523bf9453ad08",
     "url": "/ReactJS-Ninja/index.html"
   }
 ];
