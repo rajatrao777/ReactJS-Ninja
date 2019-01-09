@@ -1,13 +1,26 @@
 import React from 'react';
 
-class App extends React.Component {
-
-
-    render() {
-        return (
-            <h1>Hello World</h1>
-        )
+function App() {
+    const onclick = () => {
+        alert("Clicked");
     }
+    return (
+        <Button onclick={onclick}>ohh okay
+        <div>okay</div>
+        </Button>
+    )
+
 }
+// function LoginButton(props){
+//     return (
+//         <Button onclick={props.onclickhandler} />
+//             )
+//         }
+function Button(props) {
+    return (
+        <button onClick={props.onclick} >{props.children}</button>
+    )
+}
+
 
 export default App;
