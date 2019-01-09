@@ -1,13 +1,13 @@
 {
-  "main.css": "/ReactJS-Ninja/static/css/main.0b569e7a.chunk.css",
-  "main.js": "/ReactJS-Ninja/static/js/main.7b6038f1.chunk.js",
-  "main.js.map": "/ReactJS-Ninja/static/js/main.7b6038f1.chunk.js.map",
-  "static/js/1.5885585b.chunk.js": "/ReactJS-Ninja/static/js/1.5885585b.chunk.js",
-  "static/js/1.5885585b.chunk.js.map": "/ReactJS-Ninja/static/js/1.5885585b.chunk.js.map",
+  "main.css": "/ReactJS-Ninja/static/css/main.42ac0256.chunk.css",
+  "main.js": "/ReactJS-Ninja/static/js/main.d08a457a.chunk.js",
+  "main.js.map": "/ReactJS-Ninja/static/js/main.d08a457a.chunk.js.map",
+  "static/js/1.4a34e45d.chunk.js": "/ReactJS-Ninja/static/js/1.4a34e45d.chunk.js",
+  "static/js/1.4a34e45d.chunk.js.map": "/ReactJS-Ninja/static/js/1.4a34e45d.chunk.js.map",
   "runtime~main.js": "/ReactJS-Ninja/static/js/runtime~main.17ee0f02.js",
   "runtime~main.js.map": "/ReactJS-Ninja/static/js/runtime~main.17ee0f02.js.map",
-  "static/css/main.0b569e7a.chunk.css.map": "/ReactJS-Ninja/static/css/main.0b569e7a.chunk.css.map",
+  "static/css/main.42ac0256.chunk.css.map": "/ReactJS-Ninja/static/css/main.42ac0256.chunk.css.map",
   "index.html": "/ReactJS-Ninja/index.html",
-  "precache-manifest.e6f2be0c77010ae0bb6c101bc7aef40e.js": "/ReactJS-Ninja/precache-manifest.e6f2be0c77010ae0bb6c101bc7aef40e.js",
+  "precache-manifest.6a9f0aa4eb6c4d600beb21c466d12360.js": "/ReactJS-Ninja/precache-manifest.6a9f0aa4eb6c4d600beb21c466d12360.js",
   "service-worker.js": "/ReactJS-Ninja/service-worker.js"
 }
