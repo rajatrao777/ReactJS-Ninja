@@ -1,20 +1,28 @@
 import React from 'react';
 
 class App extends React.Component {
+    
     constructor(props) {
         super(props);
-        this.state = { click: true }
-        this.handleclick = this.handleclick.bind(this);
+        this.state = { name: '' }
+        this.Change = this.Change.bind(this);
+        this.Submit = this.Submit.bind(this);
     }
     render() {
-        const display = this.state.click ? "hi" : "bye";
+        
         return (
-            <Button onclick={this.handleclick} text = {display}>
-            </Button>
+            <form onSubmit = {this.Submit}>
+                <input type="text" value = {this.state.name} onChange = {this.Change}/>
+                <input type ="submit" value="submit"/>
+            </form>
         )
     }
-    handleclick() {
-        this.setState({ click: !this.state.click })
+    Change(e) {
+        this.setState({ name: e.target.value })
+    }
+    Submit(e){
+        alert(this.state.name);
+        e.preventDefault();
     }
 }
 // function LoginButton(props){
@@ -22,11 +30,11 @@ class App extends React.Component {
 //         <Button onclick={props.onclickhandler} />
 //             )
 //         }
-function Button(props) {
-    return (
-        <button onClick={props.onclick} >{props.text}</button>
-    )
-}
+// function Button(props) {
+//     return (
+//         <button onClick={props.onclick} >{props.text}</button>
+//     )
+// }
 
 
 export default App;
