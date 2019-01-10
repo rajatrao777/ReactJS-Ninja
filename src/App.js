@@ -1,15 +1,21 @@
 import React from 'react';
 
-function App() {
-    const onclick = () => {
-        alert("Clicked");
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { click: true }
+        this.handleclick = this.handleclick.bind(this);
     }
-    return (
-        <Button onclick={onclick}>ohh okay
-        <div>okay</div>
-        </Button>
-    )
-
+    render() {
+        const display = this.state.click ? "hi" : "bye";
+        return (
+            <Button onclick={this.handleclick} text = {display}>
+            </Button>
+        )
+    }
+    handleclick() {
+        this.setState({ click: !this.state.click })
+    }
 }
 // function LoginButton(props){
 //     return (
@@ -18,7 +24,7 @@ function App() {
 //         }
 function Button(props) {
     return (
-        <button onClick={props.onclick} >{props.children}</button>
+        <button onClick={props.onclick} >{props.text}</button>
     )
 }
 
