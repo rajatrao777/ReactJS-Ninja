@@ -1,4 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-ReactDOM.render(<App />, document.getElementById('root'));
+
+import { Provider } from "react-redux";
+import store from './store';
+import ContactPage from './ContactPage';
+
+ReactDOM.render(
+<Provider store = {store}>
+<ContactPage/>
+</Provider>,
+
+ document.getElementById('root'));
