@@ -2,7 +2,8 @@ import React from 'react'
 import { Field, reduxForm } from 'redux-form'
 
 let Form = props => {
-    const  handleSubmit = props.handleSubmit;
+    const  handleSubmit  = props.handleSubmit;
+    
     return (
         <form onSubmit={handleSubmit}>
             <div>
