@@ -1,7 +1,7 @@
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
 
-let Form = props => {
+const Form = props => {
     const  handleSubmit  = props.handleSubmit;
     
     return (

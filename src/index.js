@@ -10,7 +10,7 @@ import SignUpPage from './SignUpPage';
 ReactDOM.render(
 <Provider store = {store}>
 <LoginPage/>
-<SignUpPage/>
+{/* <SignUpPage/> */}
 </Provider>,
 
  document.getElementById('root'));
