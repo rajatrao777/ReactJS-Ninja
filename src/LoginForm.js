@@ -4,28 +4,31 @@ import { Field, reduxForm } from "redux-form";
 const LoginForm = props => {
   const { submit } = props;
   return (
-    <form onSubmit={submit} className="main--form">
+    <form onSubmit={submit} className="main--form" autoComplete="off">
       <div className="main--login--form">
         {/* <label htmlFor="username">Username</label> */}
-        <div className="main--login">
+        <div className="main--sign">
+          <label htmlFor="sign">Sign in to your Stortal Account</label>
+        </div>
+        <div className="main--user">
           <label htmlFor="username">Username</label>
           <br />
           <Field
-            className="main--input--form"
+            className="main--input--user"
             name="username"
             component="input"
             type="text"
           />
         </div>
         <br />
-        <div>
-          <label htmlFor="username">Password</label>
-          <a href="raobit.com"  style={{ paddingLeft: "95px" }}>
-            Forget Password?
+        <div className="main--pass">
+          <label htmlFor="password">Password</label>
+          <a href="raobit.com" style={{ paddingLeft: "260px",fontSize: "15px" ,color:"#ff1f5a"}}>
+            Forgot Password?
           </a>
           <br />
           <Field
-            className="main--input--form"
+            className="main--input--pass"
             name="password"
             component="input"
             type="password"
@@ -33,14 +36,12 @@ const LoginForm = props => {
         </div>
         <br />
         <div>
-          <button className="main--input--form" type="submit">
-            Login
+          <button className="main--input--submit" type="submit">
+            LOGIN
           </button>
         </div>
-        <div className="main--signup">
-          <a href="raobit.com" style={{ paddingLeft: "95px" }}>
-            Create Account
-          </a>
+        <div className="main--create-account">
+          <label>Don't have an Account?  <a href="raobit.com" style={{color:"green"}}>Create Now</a></label>
         </div>
       </div>
     </form>
