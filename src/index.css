@@ -4,10 +4,12 @@
     font-family: 'Roboto', sans-serif;
     
 }
-
+*:focus{
+    outline: none;
+}
 body {
   background: #005792;
-  link:red;
+  
 }
 
 .main--form{
@@ -51,11 +53,14 @@ body {
     /* border:2px solid #005792; */
     border-style: none;
     border-bottom:2px solid black;
+    padding:5px 20px;
     /* border-radius:10px; */
+    
 }
 .main--input--user:focus{
     border:4px solid #005792;
-    border-radius:10px;
+    border-radius:30px;
+    /* outline: none; */
 }
 .main--pass{
     position: relative;
@@ -74,11 +79,13 @@ body {
     /* border:2px solid #005792; */
     border-style: none;
     border-bottom:2px solid black;
+    padding:5px 20px;
     /* border-radius:10px; */
 }
 .main--input--pass:focus{
     border:4px solid #005792;
-    border-radius:10px;
+    border-radius:30px;
+    /* outline: none; */
 }
 .main--input--submit{
     position: relative;
