@@ -25,7 +25,7 @@ body {
     top:70px;
     width:600px;
     height: 440px;
-    border:2px solid black;
+    /* border:2px solid black; */
     padding:50px;
     border-radius:20px;
 }
@@ -97,13 +97,14 @@ body {
     background: white;
     border-radius:10px;
     border-style: none;
-    border:3px solid black;
+    border:3px solid #005792;
     color: #005792;
 }
 .main--input--submit:hover{
     background:#005792;
     color: white;
     cursor: pointer;
+    border:3px solid #005792;
 }
 .main--create-account{
     position: relative;
