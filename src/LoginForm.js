@@ -18,12 +18,16 @@ const LoginForm = props => {
             name="username"
             component="input"
             type="text"
+            autoComplete="off"
           />
         </div>
         <br />
         <div className="main--pass">
           <label htmlFor="password">Password</label>
-          <a href="raobit.com" style={{ paddingLeft: "260px",fontSize: "15px" ,color:"#ff1f5a"}}>
+          <a
+            href="raobit.com"
+            style={{ paddingLeft: "260px", fontSize: "15px", color: "#ff1f5a" }}
+          >
             Forgot Password?
           </a>
           <br />
@@ -32,6 +36,7 @@ const LoginForm = props => {
             name="password"
             component="input"
             type="password"
+            autoComplete="off"
           />
         </div>
         <br />
@@ -41,7 +46,12 @@ const LoginForm = props => {
           </button>
         </div>
         <div className="main--create-account">
-          <label>Don't have an Account?  <a href="raobit.com" style={{color:"green"}}>Create Now</a></label>
+          <label>
+            Don't have an Account?{" "}
+            <a href="raobit.com" style={{ color: "green" }}>
+              Create Now
+            </a>
+          </label>
         </div>
       </div>
     </form>

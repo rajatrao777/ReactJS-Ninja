@@ -9,8 +9,8 @@ import SignUpPage from './SignUpPage';
 
 ReactDOM.render(
 <Provider store = {store}>
-<LoginPage/>
-{/* <SignUpPage/> */}
+{/* <LoginPage/> */}
+<SignUpPage/>
 </Provider>,
 
  document.getElementById('root'));
