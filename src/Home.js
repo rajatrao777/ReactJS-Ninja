@@ -4,8 +4,9 @@ import React from "react";
 class Home extends React.Component {
   render() {
     return (
-      <div className="image" >
+      <div>
         {/* <img src={background} alt="img failed loading" /> */}
+        <div className="imageback" />
       </div>
     );
   }
