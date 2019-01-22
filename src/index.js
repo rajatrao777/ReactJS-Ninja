@@ -6,11 +6,13 @@ import store from './store';
 // import ContactPage from './ContactPage';
 import LoginPage from './LoginPage';
 import SignUpPage from './SignUpPage';
+import HomePage from './HomePage';
 
 ReactDOM.render(
 <Provider store = {store}>
+<HomePage/>
 {/* <LoginPage/> */}
-<SignUpPage/>
+{/* <SignUpPage/> */}
 </Provider>,
 
  document.getElementById('root'));
