@@ -11,10 +11,12 @@
     height:100%;
 } */
 /* background: #005792; */
-html {
+.imageback {
   background: url("background1.jpg") no-repeat center center fixed;
-  height: 100%;
+  position: relative;
+  height: 100vh;
   background-size: cover;
+  opacity: 0.8;
   overflow: hidden;
   /* background-position: center center;
   background-attachment: fixed;
@@ -186,4 +188,48 @@ html {
 }
 .main--signup--submit {
   top: 200px;
+}
+.header--company{
+    position: absolute;
+    top:5px;
+    left:20px;
+    font-size:30px;
+    padding:5px;
+    /* border:1px solid black;
+    background: black; */
+    color:white;
+    font-family: 'Baloo Thambi', cursive;
+}
+.header--signup{
+    position: absolute;
+    top:10px;
+    right:140px;
+    font-size:20px;
+    padding:5px 10px;
+    border:1px solid black;
+    background: black;
+    color:white;
+    font-family: 'Baloo Thambi', cursive;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.header--login{
+    position: absolute;
+    top:10px;
+    right:40px;
+    font-size:20px;
+    padding:5px 10px;
+    border:1px solid black;
+    background: black;
+    color:white;
+    font-family: 'Baloo Thambi', cursive;
+    border-radius: 20px;
+}
+.section--values{
+    position: absolute;
+    bottom:30px;
+    right:50px;
+    color:white;
+    font-size:50px;
+    font-family: 'Baloo Thambi', cursive;
 }
