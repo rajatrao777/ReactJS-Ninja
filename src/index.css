@@ -10,7 +10,9 @@
 /* html,body{
     height:100%;
 } */
-/* background: #005792; */
+body {
+  background: #005792;
+}
 .imageback {
   background: url("background1.jpg") no-repeat center center fixed;
   position: relative;
@@ -22,8 +24,8 @@
   background-attachment: fixed;
   background-repeat: no-repeat; */
 }
-  /* position: relative; */
-  /* background: url(background1.jpg) no-repeat center center fixed;
+/* position: relative; */
+/* background: url(background1.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
@@ -189,47 +191,47 @@
 .main--signup--submit {
   top: 200px;
 }
-.header--company{
-    position: absolute;
-    top:5px;
-    left:20px;
-    font-size:30px;
-    padding:5px;
-    /* border:1px solid black;
+.header--company {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-size: 30px;
+  padding: 5px;
+  /* border:1px solid black;
     background: black; */
-    color:white;
-    font-family: 'Baloo Thambi', cursive;
+  color: white;
+  font-family: "Baloo Thambi", cursive;
 }
-.header--signup{
-    position: absolute;
-    top:10px;
-    right:140px;
-    font-size:20px;
-    padding:5px 10px;
-    border:1px solid black;
-    background: black;
-    color:white;
-    font-family: 'Baloo Thambi', cursive;
-    border-radius: 20px;
-    text-decoration: none;
+.header--signup {
+  position: absolute;
+  top: 10px;
+  right: 140px;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-family: "Baloo Thambi", cursive;
+  border-radius: 20px;
+  text-decoration: none;
 }
-.header--login{
-    position: absolute;
-    top:10px;
-    right:40px;
-    font-size:20px;
-    padding:5px 10px;
-    border:1px solid black;
-    background: black;
-    color:white;
-    font-family: 'Baloo Thambi', cursive;
-    border-radius: 20px;
+.header--login {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-family: "Baloo Thambi", cursive;
+  border-radius: 20px;
 }
-.section--values{
-    position: absolute;
-    bottom:30px;
-    right:50px;
-    color:white;
-    font-size:50px;
-    font-family: 'Baloo Thambi', cursive;
+.section--values {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  color: white;
+  font-size: 50px;
+  font-family: "Baloo Thambi", cursive;
 }

@@ -11,9 +11,9 @@ import HomePage from './HomePage';
 ReactDOM.render(
 <Provider store = {store}>
 <HomePage/>
-{/* <LoginPage/> */}
-{/* <SignUpPage/> */}
-</Provider>,
+ {/* <LoginPage/>  
+ <SignUpPage/>  */}
+ </Provider>, 
 
  document.getElementById('root'));
  
