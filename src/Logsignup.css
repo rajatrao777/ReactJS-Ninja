@@ -10,20 +10,20 @@
 /* html,body{
     height:100%;
 } */
-/* body {
+body {
   background: #005792;
-} */
-.imageback {
+}
+/* .imageback {
   background: url("background1.jpg") no-repeat center center fixed;
   position: relative;
   height: 100vh;
   background-size: cover;
   opacity: 0.8;
   overflow: hidden;
-  /* background-position: center center;
+   background-position: center center;
   background-attachment: fixed;
-  background-repeat: no-repeat; */
-}
+  background-repeat: no-repeat;
+} */
 /* position: relative; */
 /* background: url(background1.jpg) no-repeat center center fixed;
     background-size: cover;

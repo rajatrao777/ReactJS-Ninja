@@ -1,10 +1,11 @@
 import React from "react";
 import { Field, reduxForm } from "redux-form";
+import './Logsignup.css';
 
 const SignUpForm = props => {
   const { submit } = props;
   return (
-    <form onSubmit={submit} className="main--form" autoComplete="off">
+    <form onSubmit={submit} className="main--form" autoComplete="off" >
       <div className="main--signup--form">
         <div className="main--sign">
           <label htmlFor="signup">Create a new Stortal Account</label>

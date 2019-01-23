@@ -1,7 +1,9 @@
 import React from "react";
 // import background from "./background1.jpg";
 import LoginPage from "./LoginPage";
+import SignUpPage from "./SignUpPage";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import './index.css';
 
 class Home extends React.Component {
   render() {
@@ -10,6 +12,7 @@ class Home extends React.Component {
         <Router>
           <Switch>
             <Route exact path="/Login" component={LoginPage} />
+            <Route exact path="/Signup" component={SignUpPage} />
             <Route exact path="/" component={Landing} />
           </Switch>
         </Router>
@@ -25,9 +28,9 @@ class Landing extends React.Component {
         {/* <img src={background} alt="img failed loading" /> */}
         <div className="imageback" />
         <div className="header--company">Stortal</div>
-        <a href="#">
+        <Link to="Signup">
           <div className="header--signup">SIGNUP</div>
-        </a>
+        </Link>
 
         <Link to="Login">
           <div className="header--login">LOGIN</div>
