@@ -10,8 +10,6 @@
 /* html,body{
     height:100%;
 } */
-/* commented body background color and added in Login Page inline bcoz it was loading earlier...need refactoring 
-added another css for Login Page (Log.css),even removed from there and added in inline LoginPage js */
 /* body {
   background: #005792;
 } */

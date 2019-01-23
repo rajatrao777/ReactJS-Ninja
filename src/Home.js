@@ -9,8 +9,8 @@ class Home extends React.Component {
       <div>
         <Router>
           <Switch>
-            <Route exact path="/Login/" component={LoginPage} />
-            <Route exact path="/" component={Home1} />
+            <Route exact path="/Login" component={LoginPage} />
+            <Route exact path="/" component={Landing} />
           </Switch>
         </Router>
       </div>
@@ -18,7 +18,7 @@ class Home extends React.Component {
   }
 }
 
-class Home1 extends React.Component {
+class Landing extends React.Component {
   render() {
     return (
       <div>
@@ -29,7 +29,7 @@ class Home1 extends React.Component {
           <div className="header--signup">SIGNUP</div>
         </a>
 
-        <Link to="/Login/">
+        <Link to="Login">
           <div className="header--login">LOGIN</div>
         </Link>
 
