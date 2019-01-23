@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import "./Logsignup.css";
+import './index.css';
 import { Provider } from "react-redux";
 import store from './store';
 // import ContactPage from './ContactPage';

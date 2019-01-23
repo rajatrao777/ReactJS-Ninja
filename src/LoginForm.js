@@ -1,7 +1,7 @@
 import React from "react";
 import { Field, reduxForm } from "redux-form";
 import styled from "styled-components";
-import "./Logsignup.css";
+
 
 class LoginForm extends React.Component {
   constructor(props) {

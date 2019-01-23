@@ -3,7 +3,7 @@ import React from "react";
 import LoginPage from "./LoginPage";
 import SignUpPage from "./SignUpPage";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import './index.css';
+
 
 class Home extends React.Component {
   render() {
