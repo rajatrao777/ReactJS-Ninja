@@ -1,17 +1,60 @@
 import React from "react";
 import { Field, reduxForm } from "redux-form";
 import styled from "styled-components";
+// import {TextField} from 'redux-form-material-ui';
+// import { AutoComplete } from 'material-ui/AutoComplete';
 
+const validate = values => {
+  const errors = {};
+  if (!values.username) {
+    errors.username = "Required";
+  }
+  if (!values.password) {
+    errors.password = "Required";
+  }
+  return errors;
+};
+
+const renderuser = ({
+  input,
+  label,
+  type,
+  className,
+  meta: { touched, error, warning }
+}) => (
+  <div>
+    {/* <label>{label}</label> */}
+    <div>
+      <input {...input} className={className} type={type} />
+      {touched &&
+        ((error && <span>{error}</span>) ||
+          (warning && <span>{warning}</span>))}
+    </div>
+  </div>
+);
+
+const renderpass = ({
+  input,
+  type,
+  className,
+  meta: { touched, error, warning }
+}) => (
+  <div>
+    <input {...input} className={className} type={type} />
+    {touched &&
+      ((error && <span>{error}</span>) || (warning && <span>{warning}</span>))}
+  </div>
+);
 
 class LoginForm extends React.Component {
   constructor(props) {
     super(props);
   }
-  
+
   render() {
-    const { submit } = this.props;
+    const { handleSubmit } = this.props;
     return (
-      <form onSubmit={submit} className="main--form" autoComplete="off">
+      <form onSubmit={handleSubmit} className="main--form" autoComplete="off">
         <div className="main--login--form">
           {/* <label htmlFor="username">Username</label> */}
           <div className="main--sign">
@@ -23,7 +66,7 @@ class LoginForm extends React.Component {
             <Field
               className="main--input--user"
               name="username"
-              component="input"
+              component={renderuser}
               type="text"
               autoComplete="off"
             />
@@ -45,9 +88,10 @@ class LoginForm extends React.Component {
             <Field
               className="main--input--pass"
               name="password"
-              component="input"
+              component={renderpass}
               type="password"
               autoComplete="off"
+              label="rajat"
             />
           </div>
           <br />
@@ -71,5 +115,6 @@ class LoginForm extends React.Component {
 }
 
 export default reduxForm({
-  form: "login"
+  form: "login",
+  validate
 })(LoginForm);
