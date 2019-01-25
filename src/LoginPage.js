@@ -4,7 +4,7 @@ import LoginForm from "./LoginForm";
 
 class LoginPage extends React.Component {
   render() {
-    return <LoginForm onSubmit={this.submit} />;
+    return <LoginForm  />;
   }
 }
 

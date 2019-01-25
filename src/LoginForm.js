@@ -1,8 +1,10 @@
 import React from "react";
 import { Field, reduxForm } from "redux-form";
-import styled from "styled-components";
+//import styled from "styled-components";
 // import {TextField} from 'redux-form-material-ui';
 // import { AutoComplete } from 'material-ui/AutoComplete';
+import Test from "./Test";
+import { BrowserRouter as  Link} from "react-router-dom";
 
 const validate = values => {
   const errors = {};
@@ -50,11 +52,23 @@ class LoginForm extends React.Component {
   constructor(props) {
     super(props);
   }
+  submit(values) {
+    return (
+      // <div>
+        console.log(values)
+      //   <Test data={values} />
+      // </div>
+    );
+  }
 
   render() {
-    const { handleSubmit } = this.props;
+    const { handleSubmit, error } = this.props;
     return (
-      <form onSubmit={handleSubmit} className="main--form" autoComplete="off">
+      <form
+        onSubmit={handleSubmit(this.submit)}
+        className="main--form"
+        autoComplete="off"
+      >
         <div className="main--login--form">
           {/* <label htmlFor="username">Username</label> */}
           <div className="main--sign">
@@ -66,10 +80,11 @@ class LoginForm extends React.Component {
             <Field
               className="main--input--user"
               name="username"
-              component={renderuser}
+              component="input"
               type="text"
               autoComplete="off"
             />
+            {error && <div>{error}</div>}
           </div>
           <br />
           <div className="main--pass">
@@ -88,7 +103,7 @@ class LoginForm extends React.Component {
             <Field
               className="main--input--pass"
               name="password"
-              component={renderpass}
+              component="input"
               type="password"
               autoComplete="off"
               label="rajat"
@@ -96,9 +111,11 @@ class LoginForm extends React.Component {
           </div>
           <br />
           <div>
-            <button className="main--input--submit" type="submit">
-              LOGIN
-            </button>
+            <Link to="Data">
+              <button className="main--input--submit" type="submit">
+                LOGIN
+              </button>
+            </Link>
           </div>
           <div className="main--create-account">
             <label>
@@ -115,6 +132,6 @@ class LoginForm extends React.Component {
 }
 
 export default reduxForm({
-  form: "login",
-  validate
+  form: "login"
+  // validate
 })(LoginForm);

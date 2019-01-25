@@ -3,7 +3,7 @@ import React from "react";
 import LoginPage from "./LoginPage";
 import SignUpPage from "./SignUpPage";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-
+import Test from './Test';
 
 class Home extends React.Component {
   render() {
@@ -11,6 +11,7 @@ class Home extends React.Component {
       <div>
         <Router>
           <Switch>
+            <Route exact path="/Data" component={Test} />
             <Route exact path="/Login" component={LoginPage} />
             <Route exact path="/Signup" component={SignUpPage} />
             <Route exact path="/" component={Landing} />
