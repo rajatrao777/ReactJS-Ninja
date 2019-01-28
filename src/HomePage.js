@@ -4,7 +4,7 @@ import Home from "./Home";
 class HomePage extends React.Component{
     render(){
         return (
-            <Home/>
+            <div>rajat</div>
         );
     }
 }

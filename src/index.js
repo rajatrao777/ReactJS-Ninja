@@ -10,11 +10,11 @@ import SignUpPage from './SignUpPage';
 import HomePage from './HomePage';
 
 ReactDOM.render(
-<Provider store = {store}>
-<div>rajat</div>
- {/* <LoginPage/>  
- <SignUpPage/>  */}
- </Provider>, 
+//  <Provider store = {store}>
+<HomePage/>,
+//   <LoginPage/>  
+//  <SignUpPage/>  
+//    </Provider>
 
  document.getElementById('root'));
  
