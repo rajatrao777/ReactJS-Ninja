@@ -11,7 +11,7 @@ import HomePage from './HomePage';
 
 ReactDOM.render(
 <Provider store = {store}>
-<HomePage/>
+<div>rajat</div>
  {/* <LoginPage/>  
  <SignUpPage/>  */}
  </Provider>, 
