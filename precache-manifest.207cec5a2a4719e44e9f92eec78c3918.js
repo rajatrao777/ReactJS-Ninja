@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/ReactJS-Ninja/static/js/runtime~main.17ee0f02.js"
   },
   {
-    "revision": "471111ebbf65f0a3ab4e",
-    "url": "/ReactJS-Ninja/static/js/main.471111eb.chunk.js"
+    "revision": "090d61cd4babc5ea917e",
+    "url": "/ReactJS-Ninja/static/js/main.090d61cd.chunk.js"
   },
   {
-    "revision": "cfad6f1ea2536bf52542",
-    "url": "/ReactJS-Ninja/static/js/1.cfad6f1e.chunk.js"
+    "revision": "93c05ed240ede935691f",
+    "url": "/ReactJS-Ninja/static/js/1.93c05ed2.chunk.js"
   },
   {
-    "revision": "471111ebbf65f0a3ab4e",
+    "revision": "090d61cd4babc5ea917e",
     "url": "/ReactJS-Ninja/static/css/main.cd042dc6.chunk.css"
   },
   {
-    "revision": "6f24c582aaca28dbc10e2685ae8ea6d4",
+    "revision": "33c0e987d1e260fbdfadc6cc8dcbb4c0",
     "url": "/ReactJS-Ninja/index.html"
   }
 ];
